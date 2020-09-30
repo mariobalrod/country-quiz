@@ -8,17 +8,17 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react",
-    "baseUrl": "src"
+    "jsx": "preserve",
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "**/*.ts",
@@ -27,5 +27,5 @@
   "exclude": [
     "build",
     "node_modules"
-  ],
+  ]
 }
